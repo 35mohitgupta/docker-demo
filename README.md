@@ -8,3 +8,6 @@ sudo docker run -p 3000:3000 devimg
 
 <!-- if development server stops automatically -->
 sudo docker run -it -p 3000:3000 devimg
+
+<!--  Docker volumes and bookmarking volumes for automatic reload -->
+sudo docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app devimg
