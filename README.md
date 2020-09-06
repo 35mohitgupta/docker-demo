@@ -20,3 +20,4 @@ sudo docker-compose down
 <!-- run for production dockerfile -->
 sudo docker build -t prodimg .
 sudo docker run -p "8080:80" prodimg   <!-- 80 is the default port of nginx -->
+
