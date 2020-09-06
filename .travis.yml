@@ -6,4 +6,4 @@ before_install:
     - docker build -t mohit35/docker-react-demo -f ./my-docker-app/Dockerfile.dev ./my-docker-app
 
 script:
-    - docker run mohit35/docker-react-demo npm run test -- --coverage
+    - docker run mohit35/docker-react-demo npm run test
