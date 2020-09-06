@@ -14,4 +14,4 @@ RUN npm install
 COPY . .
 
 # Specify the container startup command
-CMD [ "npm", 'run', "start" ]
+CMD [ "npm", "run", "start" ]
